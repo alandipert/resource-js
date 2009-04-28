@@ -18,9 +18,9 @@ Example Syntax
 
 Dependencies
 ==========================================
-jQuery: http://jquery.com/
-json2.js: http://www.json.org/json2.js
+*   [jQuery](http://jquery.com/)
+*   [json2.js](http://www.json.org/json2.js)
 
 Props
 ==========================================
-http://rest-client.heroku.com/rdoc/
+*   [RestClient](http://rest-client.heroku.com/rdoc/)
