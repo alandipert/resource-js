@@ -5,16 +5,16 @@ This is a simple class, Resource,  that emulates the behavior of the Ruby RestCl
 Example Syntax
 =========================
 
-var r = new Resource("/blog/post");
-r.post({ title : "some title", body : "some body." }, function(data) {
-  alert("A new post has been POSTed");
-});
+    var r = new Resource("/blog/post");
+    r.post({ title : "some title", body : "some body." }, function(data) {
+      alert("A new post has been POSTed");
+    });
 
-var r = new Resource("/blog");
-var p = r.sub("post");
-p.get(function(data) {
-  alert("This is all the posts: "+data);
-});
+    var r = new Resource("/blog");
+    var p = r.sub("post");
+    p.get(function(data) {
+      alert("This is all the posts: "+data);
+    });
 
 Dependencies
 ==========================================
