@@ -1,6 +1,6 @@
 About
 =========================
-This is a simple class, Resource,  that emulates the behavior of the Ruby RestClient lib.  It allows simple REST operations on named resources by wrapping jQuery's Ajax call.
+This is a simple class, Resource,  that emulates the behavior of the Ruby RestClient lib. Once you have a Resource instance, you can PUT/POST/DELETE/GET to it.
 
 Example Syntax
 =========================
@@ -22,4 +22,4 @@ Dependencies
 
 Props
 ==========================================
-*   [RestClient](http://rest-client.heroku.com/rdoc/)
+*   [RestClient](http://github.com/adamwiggins/rest-client/tree/master)
