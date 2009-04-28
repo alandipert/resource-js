@@ -11,8 +11,7 @@ Example Syntax
       });
 
       var r = new Resource("/blog");
-      var p = r.sub("post");
-      p.get(function(data) {
+      r.sub("post").get(function(data) {
         alert("This is all the posts: "+data);
       });
 
